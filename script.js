@@ -4,7 +4,7 @@ function insert(num){
 }
 
 function clean(){
-    document.getElementById('resultado').innerHTML = " ";
+    document.getElementById('resultado').innerHTML = "";
 }
 
 function erase(){
@@ -22,6 +22,5 @@ function calcular(){
     else{
         document.getElementById('resultado').innerHTML = "Erro";
         setTimeout(clean, 400);
-        console.log("Fui executado: clean()")
     }
 }
